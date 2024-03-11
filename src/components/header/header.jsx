@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import './Header.css';
+import './header.css';
 
 export default class Header extends Component {
 
@@ -21,15 +21,3 @@ export default class Header extends Component {
 
 
 
-// function App() {
-//     return (
-//       <div className="App">
-//         <header className="App-header">
-        
-//         </header>
-//       </div>
-//     );
-//   }
-  
-//   export default App;
-  
