@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Header from '../header/header';
-// import ClientDetail from '../client/client-detail/client-detail';
-import ClientList from '../client/client-list/client-list';
+import ClientDetail from '../client/client-detail/client-detail';
+// import ClientList from '../client/client-list/client-list';
 import './app.css';
 
 export default class App extends Component {
@@ -9,7 +9,8 @@ export default class App extends Component {
         return (
             <div className='App'>
                 <Header />
-                <ClientList />
+                <ClientDetail data mode="view"/>
+                {/* : view или edit) */}
             </div>
         )
     }
